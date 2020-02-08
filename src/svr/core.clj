@@ -3,16 +3,6 @@
             [java-jdbc.ddl :as ddl]
             [java-jdbc.sql :as sql]))
 
-(comment
-  If you want to try some other jdbc, ddl or sql functions on repl,
-  copy & paste below to require libraries on your repl.
-
-  (require '[clojure.java.jdbc :as jdbc]
-           '[java-jdbc.ddl :as ddl]
-           '[java-jdbc.sql :as sql])
-
-  )
-
 ;; newly done
 (def db-spec {:classname "org.apache.derby.jdbc.ClientDriver"
               :subprotocol "derby"
