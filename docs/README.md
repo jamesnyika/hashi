@@ -36,9 +36,14 @@ A prospect is interested in establishing mutual TLS between applications or serv
     [ ] Capture/Learn the Raft Algorithm
 
  - [ ] Practice
- - [ ] Screen Captures 
+ - [ ] Screen Captures
 
 
 ### Challenges Encountered
 
- There
+ #### Technical Challenges
+ ---
+
+ * General Network Connectivity for Derby
+ * Configuring database driver loading
+ 
