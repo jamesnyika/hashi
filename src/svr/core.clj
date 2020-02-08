@@ -41,6 +41,10 @@
            (GET "/get-time" [] (get-time))
            (GET "/get-date" [] (get-date))
            (GET "/init" [] (dbresult (p/init)))
+           (GET "/cleanup" [] (dbresult (p/drop-posts-table)))
+           ;(GET "/write/:title" [] (dbresult (p/write-posts)))
+           (GET "/find/:id" [id] (dbresult (p/find-post id)))
+           (GET "/bytime/:col" [col] (dbresult (p/order-by-time col)))
            (GET "/list-posts" [] (dbresult (p/all)))
            (route/not-found "<h1>Whow! Either you do not have this route or Consul says NO! ..</h1>"))
 
