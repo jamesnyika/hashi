@@ -28,3 +28,5 @@ $ ./startup.sh
 ````bash  
 $ lein run
 ````
+
+3. Start Consul
