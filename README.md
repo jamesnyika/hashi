@@ -2,9 +2,10 @@
 
 ## Hashicorp SC Exercise
 
-#### Getting Started
+### Getting Started
 
-    Prerequisites
+#### Prerequisites
+---
 
 * Install [Clojure](www.clojure.org)
 * Install [Leiningen](www.leiningen.org).
@@ -12,7 +13,8 @@
 * Install [Hashicorp's Consul](https://www.consul.io/) to handle your service discovery, segmentation and configuration.
 
 
-    Running The Code
+#### Running The Code
+---
 
 1. Start Derby. From a terminal, change into the hashi directory and run the startdb.sh script
 
