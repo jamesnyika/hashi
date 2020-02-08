@@ -13,16 +13,12 @@
 
   )
 
-(def db {
-         :subprotocol "derby"
-         :subname db-path
-         :create true})  ; database setups
-
-;; database references.
-
-(def db-path "./MyDB") ; a path to the database
-(def db-svr "localhost")
-(def db-port "1234")
-(def jdbc-url "somethingg")
-(def username "")
-(def password "")
+;; newly done
+(def db-spec {:classname "org.apache.derby.jdbc.ClientDriver"
+              :subprotocol "derby"
+              :subname "jdbc:derby://localhost:1527/postdb"
+              :create true
+              ;; Not needed for a non-secure local database...
+              ;; :user "bilbo"
+              ;; :password "secret"
+              })
