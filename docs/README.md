@@ -13,9 +13,9 @@ A prospect is interested in establishing mutual TLS between applications or serv
 
 ### Plan of Action
 
- [X] Read and understand instructions
- [X] Prepare the requisite application
-   [X] Web Server: HTTPKIT
-   [X] Apache Derby Database (Network Mode)
-   [X] Simple API - Create, List, Drop, Sort by Col, Find by ID
-   [X] Verify ability run from localhost and remotely
+ - [X] Read and understand instructions
+ - [X] Prepare the requisite application
+   - [X] Web Server: HTTPKIT
+   - [X] Apache Derby Database (Network Mode)
+   - [X] Simple API - Create, List, Drop, Sort by Col, Find by ID
+   - [X] Verify ability run from localhost and remotely
