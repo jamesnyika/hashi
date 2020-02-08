@@ -23,20 +23,20 @@ A prospect is interested in establishing mutual TLS between applications or serv
 
 - [X] Install and Configure Consul services
   - [X] Verify the services are seen and monitored as being up and running
-  - [] Configure the TLS connectivity between them
-  - [] Validate encryption between the links
+  - [ ] Configure the TLS connectivity between them
+  - [ ] Validate encryption between the links
 
-- [] Configure deny intents
-  - [] Verify working intentions
+- [ ] Configure deny intents
+  - [ ] Verify working intentions
 
-- [] Prepare Slides
-    [] Demonstrate value of the solution
-    [] Draw up list of possible objections to the solution
-    [] Draw up list of possible questions
-    [] Capture/Learn the Raft Algorithm
+- [ ] Prepare Slides
+    [ ] Demonstrate value of the solution
+    [ ] Draw up list of possible objections to the solution
+    [ ] Draw up list of possible questions
+    [ ] Capture/Learn the Raft Algorithm
 
- - [] Practice
- - [] Screen Captures 
+ - [ ] Practice
+ - [ ] Screen Captures 
 
 
 ### Challenges Encountered
