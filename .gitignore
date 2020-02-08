@@ -1,3 +1,4 @@
 *.dat
 derby.log
 /target/*
+.DS_Store
