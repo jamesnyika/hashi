@@ -10,7 +10,6 @@
             [java-jdbc.ddl :as ddl]
             [java-jdbc.sql :as sql]
             [svr.posts :as p]))
-
 ;
 
 (defn get-time
