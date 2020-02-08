@@ -42,6 +42,18 @@
   [title body]
   (jdbc/insert! db :posts {:title title :body body}))
 
+(defn init
+  "Preps the db with some posts"
+  []
+   ;;create table
+   (create-posts-table)
+
+   ;;add posts
+   (write-post "Hashicorp Federal Grows 300%" "Hashicorp grew tremendouslyl today")
+   (write-post "Hashicorp Looking for SC talent" "Hashicorp sent the word out today that they are seeking new candidates")
+   (write-post "Hashicorp to Wall Street" "Hashicorp bullish on Q1 of 2020")
+  )
+
 (defn all
   "Finds all data from posts table."
   []

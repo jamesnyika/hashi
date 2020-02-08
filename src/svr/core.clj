@@ -38,6 +38,7 @@
            (GET "/" [] "<h1>Good morning Hashicorp!!!! Let's do this...</h1>")
            (GET "/get-time" [] (get-time))
            (GET "/get-date" [] (get-date))
+           (GET "/init" [] (dbresult (p/init)))
            (GET "/list-posts" [] (dbresult (p/all)))
            (route/not-found "<h1>Whow! Either you do not have this route or Consul says NO! ..</h1>"))
 
