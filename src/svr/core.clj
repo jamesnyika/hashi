@@ -1,7 +1,10 @@
 (ns svr.core
   (:require [clojure.java.jdbc :as jdbc]
             [org.httpkit.server :refer [run-server]]
+            [clojure.pprint :as pp :refer [print-table pprint]]
             [clj-time.core :as t]
+            [hiccup.table :as ht]
+            [hiccup.core :as h]
             [compojure.core :refer :all]
             [compojure.route :as route]
             [java-jdbc.ddl :as ddl]
@@ -30,7 +33,7 @@
 (defn dbresult [result]
     {:status 200
      :headers {"Content-Type" "text/html"}
-     :body    (str result)}
+     :body    (h/html (ht/to-table1d result [:id "#" :title "Title" :body "Content" :created_at "Posted"]))}
    )
 
 ; define routes.

@@ -10,6 +10,8 @@
                  [java-jdbc/dsl "0.1.3"]
                  [clj-time "0.14.0"]
                  [compojure "1.6.0"]
+                 [hiccup "1.0.5"]
+                 [hiccup-table "0.2.0"]
                  [org.apache.derby/derby "10.14.2.0"]
                  [org.apache.derby/derbyclient "10.14.2.0"]]
   :dev-dependencies [[org.clojure/java.jdbc "0.7.11"] ]
