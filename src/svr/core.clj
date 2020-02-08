@@ -5,17 +5,10 @@
             [compojure.core :refer :all]
             [compojure.route :as route]
             [java-jdbc.ddl :as ddl]
-            [java-jdbc.sql :as sql]))
+            [java-jdbc.sql :as sql]
+            [svr.posts :as p]))
 
-;; newly done
-(def db-spec {:classname "org.apache.derby.jdbc.ClientDriver"
-              :subprotocol "derby"
-              :subname "jdbc:derby://localhost:1527/postdb"
-              :create true
-              ;; Not needed for a non-secure local database...
-              ;; :user "bilbo"
-              ;; :password "secret"
-              })
+;
 
 (defn get-time
   []
@@ -32,15 +25,24 @@
                   :body    (str (.getTime (java.util.Date.)))}]
     response))
 
+
+;; generic wrapper for results
+(defn dbresult [result]
+    {:status 200
+     :headers {"Content-Type" "text/html"}
+     :body    (str result)}
+   )
+
 ; define routes.
 (defroutes app
            (GET "/" [] "<h1>Good morning Hashicorp!!!! Let's do this...</h1>")
            (GET "/get-time" [] (get-time))
            (GET "/get-date" [] (get-date))
+           (GET "/list-posts" [] (dbresult (p/all)))
            (route/not-found "<h1>Whow! Either you do not have this route or Consul says NO! ..</h1>"))
 
 
-(defn app [req]
+(defn origapp [req]
   {:status  200
    :headers {"Content-Type" "text/html"}
    :body    "HASHI-SVR1 is up  - sponsored by HTTPKIT"})
