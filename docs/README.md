@@ -44,6 +44,5 @@ A prospect is interested in establishing mutual TLS between applications or serv
  #### Technical Challenges
  ---
 
- * General Network Connectivity for Derby
- * Configuring database driver loading
- 
+ * General Network Connectivity for Derby (#2)
+ * Configuring database driver loading (#1)
