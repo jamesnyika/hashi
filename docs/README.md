@@ -23,6 +23,7 @@ A prospect is interested in establishing mutual TLS between applications or serv
 
 - [X] Install and Configure Consul services
   - [X] Verify the services are seen and monitored as being up and running
+  - [X] Configure multiple services in a single config file
   - [ ] Configure the TLS connectivity between them
   - [ ] Validate encryption between the links
   - [ ] Add monitoring checks 20s apart for both server and client

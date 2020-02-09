@@ -1,0 +1,24 @@
+{"services":
+  [
+    {"name": "AppServer",
+      "id": "AP1",
+      "name": "HttpKit Server",
+      "tags": ["primary","application","java"],
+      "address": "",
+      "meta": {
+        "meta": "Sample metadata"
+      },
+     "port": 8080
+   },
+   {"name": "DBServer",
+     "id": "DB",
+     "name": "Derby Server",
+     "tags": ["store","db","apache","derby"],
+     "address": "",
+     "meta": {
+       "meta": "Network Server"
+     },
+    "port": 1527
+  }
+ ]
+}
