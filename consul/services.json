@@ -5,6 +5,7 @@
       "name": "HttpKit Server",
       "tags": ["primary","application","java"],
       "address": "",
+      "connect": { "sidecar_service": {} },
       "meta": {
         "meta": "Sample metadata"
       },
@@ -15,6 +16,7 @@
      "name": "Derby Server",
      "tags": ["store","db","apache","derby"],
      "address": "",
+     "connect": { "sidecar_service": {} },
      "meta": {
        "meta": "Network Server"
      },
