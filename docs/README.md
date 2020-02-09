@@ -25,6 +25,7 @@ A prospect is interested in establishing mutual TLS between applications or serv
   - [X] Verify the services are seen and monitored as being up and running
   - [ ] Configure the TLS connectivity between them
   - [ ] Validate encryption between the links
+  - [ ] Add monitoring checks 20s apart for both server and client
 
 - [ ] Configure deny intents
   - [ ] Verify working intentions
