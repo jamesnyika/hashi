@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Starting Derby Network DB server on localhost:1527.."
+echo "Starting Derby Network DB server on all interfaces and port:1527.."
 
 source ~/.bash_profile
 

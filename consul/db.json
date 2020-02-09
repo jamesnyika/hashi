@@ -1,0 +1,13 @@
+{"service":
+  {"name": "DBServer",
+    "id": "DB",
+    "name": "Derby Server",
+    "tags": ["store","db","apache","derby"],
+    "address": "",
+    "meta": {
+      "meta": "Network Server"
+    },
+   "port": 1527,
+   "kind": "Database"
+ }
+}

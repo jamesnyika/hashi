@@ -1,0 +1,13 @@
+{"service":
+  {"name": "AppServer",
+    "id": "AP1",
+    "name": "HttpKit Server",
+    "tags": ["primary","application","java"],
+    "address": "",
+    "meta": {
+      "meta": "Sample metadata"
+    },
+   "port": 8080,
+   "kind": "Node"
+ }
+}
