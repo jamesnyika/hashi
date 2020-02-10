@@ -6,8 +6,8 @@
 ; newly done
 (def db {    :classname "org.apache.derby.jdbc.ClientDriver"
               :subprotocol "derby"
-              ;:subname "//localhost:1527/postdb"
-              :subname "//139.162.44.171:1527/postdb"
+              :subname "//localhost:1527/postdb"
+              ;:subname "//139.162.44.171:1527/postdb"
               :create true
               ;; Not needed for a non-secure local database...
               ;; :user "bilbo"

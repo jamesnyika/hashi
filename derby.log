@@ -1,1 +1,14 @@
-Sat Feb 08 18:50:41 EST 2020 : Apache Derby Network Server - 10.14.2.0 - (1828579) started and ready to accept connections on port 1527
+Mon Feb 10 10:35:09 EST 2020 : Apache Derby Network Server - 10.14.2.0 - (1828579) started and ready to accept connections on port 1527
+----------------------------------------------------------------
+Mon Feb 10 10:40:16 EST 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0170-2fbd-6fd4-ffff937b6bb0 
+on database directory /Users/jn/experimental/apps/hashi/postdb with class loader sun.misc.Launcher$AppClassLoader@511d50c0 
+Loaded from file:/Users/jn/experimental/apps/hashi/derby/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_202-ea-b03
+user.dir=/Users/jn/experimental/apps/hashi
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.15.2
+derby.system.home=/Users/jn/experimental/apps/hashi
+Database Class Loader started - derby.database.classpath=''

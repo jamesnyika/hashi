@@ -47,4 +47,8 @@ A prospect is interested in establishing mutual TLS between applications or serv
  ---
 
  * General Network Connectivity for Derby [#2](https://github.com/jamesnyika/hashi/issues/2)
+   Action Taken: Derby documentation link was broken explaining how to do this. Forums provided the answer to change the configuration 
  * Configuring database driver loading [#1](https://github.com/jamesnyika/hashi/issues/1)
+   Action Taken: Located Maven import format for driver and used that directly in my code
+ * Encountered Consul naming bug [Consul Issue 6765](https://github.com/hashicorp/consul/issues/6765)
+   Action Taken: Used the suggested workaround to just use lower case names till it is fixed
