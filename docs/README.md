@@ -24,6 +24,11 @@ A prospect is interested in establishing mutual TLS between applications or serv
 - [X] Install and Configure Consul services
   - [X] Verify the services are seen and monitored as being up and running
   - [X] Configure multiple services in a single config file
+  - [X] Configure running proxy for App server
+  - [X] Configure running proxy for DB Server
+  - [X] Configure and test a proxy service that can test the encryption from proxy to service
+  - [X] Verify the traffic is encrypted (? using wireshark ? )
+  - [X] Configure the upstream connectivity between the two services
   - [ ] Configure the TLS connectivity between them
   - [ ] Validate encryption between the links
   - [ ] Add monitoring checks 20s apart for both server and client
@@ -47,8 +52,10 @@ A prospect is interested in establishing mutual TLS between applications or serv
  ---
 
  * General Network Connectivity for Derby [#2](https://github.com/jamesnyika/hashi/issues/2)
-   Action Taken: Derby documentation link was broken explaining how to do this. Forums provided the answer to change the configuration 
+   Action Taken: Derby documentation link was broken explaining how to do this. Forums provided the answer to change the configuration
  * Configuring database driver loading [#1](https://github.com/jamesnyika/hashi/issues/1)
    Action Taken: Located Maven import format for driver and used that directly in my code
  * Encountered Consul naming bug [Consul Issue 6765](https://github.com/hashicorp/consul/issues/6765)
    Action Taken: Used the suggested workaround to just use lower case names till it is fixed
+ * General lack of clarity in the documentation about when to use service name vs service id.
+   Action Taken: Document my finding and hopefully not make the mistake again. I have both in my config files. 
