@@ -2,19 +2,20 @@
   [
     {"id": "httpkit",
       "name": "appsvr",
+      "port": 8080,
       "tags": ["primary","application","java"],
       "connect": { "sidecar_service": {
           "proxy": {
           "upstreams": [{
-             "destination_name": "appsvr",
+             "destination_name": "dbserver",
              "local_bind_port": 9090
           }]
         }
-        } },
-      "port": 8080
+        } }
    },
    {"id": "derby",
      "name": "dbserver",
+     "port": 1527,
      "tags": ["store","db","apache","derby"],
        "connect": { "sidecar_service": {
            "proxy": {
@@ -23,8 +24,7 @@
               "local_bind_port": 2527
            }]
          }
-         } },
-     "port": 1527
+         } }
   }
  ]
 }
