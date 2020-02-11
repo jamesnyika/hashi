@@ -6,8 +6,8 @@
 ; newly done
 (def db {    :classname "org.apache.derby.jdbc.ClientDriver"
               :subprotocol "derby"
-              ;;this is the proxy address of the consul proxy instead of to port 1527 which is the non secure
-              :subname "//localhost:2527/postdb"
+              ;; use the address and port of our proxy!!!
+              :subname "//localhost:9090/postdb"
               ;:subname "//139.162.44.171:1527/postdb"
               :create true
               ;; Not needed for a non-secure local database...
