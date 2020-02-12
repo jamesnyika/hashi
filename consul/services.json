@@ -7,7 +7,7 @@
       "connect": { "sidecar_service": {
           "proxy": {
           "upstreams": [{
-             "destination_name": "dbserver",
+             "destination_name": "appsvr",
              "local_bind_port": 9090
           }]
         }
@@ -18,7 +18,9 @@
      "port": 1527,
      "tags": ["store","db","apache","derby"],
        "connect": { "sidecar_service": {
-           "proxy": {}} }
+           "proxy": {
+                "local_bind_port": 2527
+             }} }
   }
  ]
 }
