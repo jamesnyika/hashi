@@ -72,3 +72,7 @@ which is
 and health checks should show healthy sidecar proxies and services
 
  ![health](./resources/images/healthchecks.png)
+
+ You should also see your ports setup as follows
+
+ ![health](./resources/images/serviceports.png)
