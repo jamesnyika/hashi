@@ -9,7 +9,12 @@
           "upstreams": [{
              "destination_name": "appsvr",
              "local_bind_port": 9090
-          }]
+          },
+          {
+             "destination_name": "dbserver",
+             "local_bind_port":3527
+          }
+        ]
         }
         } }
    },

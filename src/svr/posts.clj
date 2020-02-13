@@ -7,7 +7,7 @@
 (def db {    :classname "org.apache.derby.jdbc.ClientDriver"
               :subprotocol "derby"
               ;; use the address and port of our proxy!!!
-              :subname "//localhost:2527/postdb"
+              :subname "//localhost:3527/postdb"
               ;:subname "//139.162.44.171:1527/postdb"
               :create true
               ;; Not needed for a non-secure local database...
