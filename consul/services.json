@@ -19,7 +19,10 @@
      "tags": ["store","db","apache","derby"],
        "connect": { "sidecar_service": {
            "proxy": {
+             "upstreams": [{
+                "destination_name": "dbserver",
                 "local_bind_port": 2527
+             }]
              }} }
   }
  ]
