@@ -76,3 +76,20 @@ and health checks should show healthy sidecar proxies and services
  You should also see your ports setup as follows
 
  ![health](./resources/images/serviceports.png)
+
+
+ 6. To access the site unencrypted you can hit
+
+    http://localhost:8080/ or http://localhost:8080/list-posts
+
+    however, you can now access the service mesh by connecting to the proxies
+
+    http://localhost:9090/ or http://localhost:9090/list-posts which uses consul
+
+    See below
+
+    ![t1](./resources/images/test1.png)
+
+    and with database access
+
+    ![t2](./resources/images/test2.png)
