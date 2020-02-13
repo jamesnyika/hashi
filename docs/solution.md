@@ -1,4 +1,4 @@
-![Hashicorp](./resources/images/hclogo.png)
+![Hashicorp](../resources/images/hclogo.png)
 
 ## Hashicorp SC Exercise - My Solution
 
