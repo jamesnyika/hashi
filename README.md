@@ -93,3 +93,12 @@ and health checks should show healthy sidecar proxies and services
     and with database access
 
     ![t2](./resources/images/test2.png)
+
+
+ 7. Add an intention to allow or deny access to the db server as shown below
+
+  ![int](./resources/images/intentions.png)
+
+  When set to deny then you cannot access the database listing
+
+  ![t3](./resources/images/denied.png)
