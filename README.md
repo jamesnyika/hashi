@@ -1,9 +1,6 @@
 ![Hashicorp](./resources/images/hclogo.png)
 
-## Hashicorp SC Exercise
-
-
-### Consul – connect services with mutual TLS
+## Hashicorp Consul Example
 
 A prospect is interested in establishing mutual TLS between applications or services
 
@@ -12,9 +9,30 @@ A prospect is interested in establishing mutual TLS between applications or serv
 * Describe the solution, slides, Consul UI, etc
 * Be ready to answer technical questions about the solution, compared to GTM, etc
 
-### Getting Started
 
-#### Prerequisites
+### Proposed solution
+
+Hashicorp's Consul is a fantastic way to connect existing/legacy applications and services using TLS connections WITHOUT retrofitting them to perform SSL. It is quick and easy to configure and can deliver the following benefits
+
+ * Out of the box health checking. The consul agent automatically checks if services are up and running and allows you to react if services are down and since it is done locally, it is all distributed
+
+ * Updates are only sent to healthy hosts meaning that faulty nodes will not be needlessly sent traffic they cannot handle.
+
+ * Secure communications between services without incurring the cost of new development to add TLS encryption between applications for very little extra footprint
+
+ * Can eliminate the cost of additional load balancers since it has healthchecks and a DNS resolution service
+
+ * Can be used across datacenters, securing links cross them while having configuration specific to each datacenter captured in its KV store.
+
+  * Visibility through the consul web application improves the user experience in seeing and managing services, including adding/removing intentions.  
+
+
+### How it was done
+---
+
+
+
+#### How to run it
 ---
 
 * Install [Clojure](www.clojure.org)
