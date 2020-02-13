@@ -48,3 +48,5 @@ I used a single file to configure my proxies and services. In addition, I also c
 ````
 
 This resulted in the following architecture
+
+[final](./resources/images/FinalSoln.png)
