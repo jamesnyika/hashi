@@ -24,7 +24,9 @@ Hashicorp's Consul is a fantastic way to connect existing/legacy applications an
 
  * Can be used across datacenters, securing links cross them while having configuration specific to each datacenter captured in its KV store.
 
-  * Visibility through the consul web application improves the user experience in seeing and managing services, including adding/removing intentions.  
+ * Visibility through the consul web application improves the user experience in seeing and managing services, including adding/removing intentions.  
+
+ ..and lot more
 
 
 ### How it was done
