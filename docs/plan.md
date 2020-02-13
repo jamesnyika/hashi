@@ -45,17 +45,15 @@ A prospect is interested in establishing mutual TLS between applications or serv
  - [X] Screen Captures
 
 ### Visualizing the result
+---
 
  The plan was to implement This
 
 ![plan](../resources/images/ThePlan.png)
 
-  and this is what was put in place
-
-![final](../resources/images/arch.png)
-
 
 ### Challenges Encountered
+---
 
  #### Technical Challenges
  ---
@@ -86,4 +84,5 @@ A prospect is interested in establishing mutual TLS between applications or serv
 
 
 ### Final Solution
+---
  My final solution is described [here](./solution.md)
