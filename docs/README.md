@@ -45,6 +45,12 @@ A prospect is interested in establishing mutual TLS between applications or serv
  - [ ] Practice
  - [ ] Screen Captures
 
+### Visualizing the result
+
+ The plan was to implement This
+
+ ![plan](../resources/images/ThePlan.png)
+
 
 ### Challenges Encountered
 
@@ -58,4 +64,8 @@ A prospect is interested in establishing mutual TLS between applications or serv
  * Encountered Consul naming bug [Consul Issue 6765](https://github.com/hashicorp/consul/issues/6765)
    Action Taken: Used the suggested workaround to just use lower case names till it is fixed
  * General lack of clarity in the documentation about when to use service name vs service id.
-   Action Taken: Document my finding and hopefully not make the mistake again. I have both in my config files. 
+   Action Taken: Document my finding and hopefully not make the mistake again. I have both in my config files.
+
+ * Generally challenging to understand which ports belong to which proxies. I have to work out a system for understanding this. I overcame this challenge by using ```` nettop -c  -t loopback```` to look at port connections and where traffic was flowing.
+
+ ![NettopDiagram](../resources/images/ConsulServiceMesh.png)

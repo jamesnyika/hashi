@@ -5,4 +5,4 @@ echo "Starting consul agent with config in consul folder..."
 ## consul agent -dev -enable-script-checks -config-dir=./consul
 
 ## kick off without -enablechecks
-consul agent -dev -config-dir=../consul -node aurelius
+consul agent -dev -enable-script-checks -config-dir=../consul -node aurelius
