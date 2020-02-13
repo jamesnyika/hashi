@@ -35,14 +35,11 @@ A prospect is interested in establishing mutual TLS between applications or serv
 - [X] Configure deny intents
   - [X] Verify working intentions
 
-- [ ] Prepare Slides
+- [X] Prepare Slides
+    - [X] Screen Captures
     - [ ] Demonstrate value of the solution
     - [ ] Draw up list of possible objections to the solution
     - [ ] Draw up list of possible questions
-    - [ ] Capture/Learn the Raft Algorithm
-
- - [ ] Practice
- - [X] Screen Captures
 
 ### Visualizing the result
 ---
