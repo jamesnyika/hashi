@@ -30,7 +30,7 @@ Hashicorp's Consul is a fantastic way to connect existing/legacy applications an
 ### How it was done
 ---
 
-![how](./resources/images/directions.jpeg)
+![how](./resources/images/directions.jpeg | width = 200)
 
 If you would like to go directly to the solution description then go [here](./docs/plan.md)
 
