@@ -29,12 +29,11 @@ A prospect is interested in establishing mutual TLS between applications or serv
   - [X] Configure and test a proxy service that can test the encryption from proxy to service
   - [X] Verify the traffic is encrypted (? using wireshark ? )
   - [X] Configure the upstream connectivity between the two services
-  - [ ] Configure the TLS connectivity between them
+  - [X] Configure the TLS connectivity between them
   - [ ] Validate encryption between the links
-  - [ ] Add monitoring checks 20s apart for both server and client
 
-- [ ] Configure deny intents
-  - [ ] Verify working intentions
+- [X] Configure deny intents
+  - [X] Verify working intentions
 
 - [ ] Prepare Slides
     [ ] Demonstrate value of the solution
@@ -43,7 +42,7 @@ A prospect is interested in establishing mutual TLS between applications or serv
     [ ] Capture/Learn the Raft Algorithm
 
  - [ ] Practice
- - [ ] Screen Captures
+ - [X] Screen Captures
 
 ### Visualizing the result
 
