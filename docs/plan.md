@@ -48,7 +48,11 @@ A prospect is interested in establishing mutual TLS between applications or serv
 
  The plan was to implement This
 
- ![plan](../resources/images/ThePlan.png)
+![plan](../resources/images/ThePlan.png)
+
+  and this is what was put in place
+
+![final](../resources/images/arch.png)
 
 
 ### Challenges Encountered
