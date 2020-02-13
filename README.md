@@ -46,7 +46,7 @@ $ lein clean; lein run
 
 This basically executes
 ````
-## kick off without -enablechecks
+## kick off agent with a node name
 consul agent -dev -enable-script-checks -config-dir=../consul -node aurelius
 
 ````
