@@ -31,6 +31,7 @@ Hashicorp's Consul is a fantastic way to connect existing/legacy applications an
 ---
 
 <img src="./resources/images/directions.jpeg" width=400 align=left/>
+##### image credit: Unsplash Photo by Daniel Gonzalez
 
 If you would like to go directly to the solution description then go [here](./docs/plan.md)
 
