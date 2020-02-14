@@ -42,4 +42,12 @@ by *James Nyika*
 
 
 
-Objections 
+Objections
+
+1. Our organization does not like using open source tools
+
+2. How much training do I need to be able to do this ?
+
+3. Isn't it cheaper to just use AWS/Azure tools to do this instead of adding a new component into the mix ?
+
+4. I have load balancers - why do I need Consul ?
