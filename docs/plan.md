@@ -86,7 +86,7 @@ A prospect is interested in establishing mutual TLS between applications or serv
 
  and we can see by monitoring the private Consul ports that the data is encrypted
 
-  ![wireshark](../resources/images/wireshark.png)
+  ![wireshark](../resources/images/wireshark2.png)
 
  and
 
