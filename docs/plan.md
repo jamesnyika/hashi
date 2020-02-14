@@ -30,16 +30,16 @@ A prospect is interested in establishing mutual TLS between applications or serv
   - [X] Verify the traffic is encrypted (? using wireshark ? )
   - [X] Configure the upstream connectivity between the two services
   - [X] Configure the TLS connectivity between them
-  - [ ] Validate encryption between the links using wireshark
+  - [X] Validate encryption between the links using wireshark
 
 - [X] Configure deny intents
   - [X] Verify working intentions
 
 - [X] Prepare Slides
     - [X] Screen Captures
-    - [ ] Demonstrate value of the solution
-    - [ ] Draw up list of possible objections to the solution
-    - [ ] Draw up list of possible questions
+    - [X] Demonstrate value of the solution
+    - [X] Draw up list of possible objections to the solution
+    - [X] Draw up list of possible questions
 
 ### Visualizing the result
 ---
@@ -83,3 +83,11 @@ A prospect is interested in establishing mutual TLS between applications or serv
 ### Final Solution
 ---
  My final solution is described [here](./solution.md)
+
+ and we can see by monitoring the private Consul ports that the data is encrypted
+
+  ![wireshark](../resources/images/wireshark.png)
+
+ and
+
+  ![wireshark](../resources/images/wireshark.png)
