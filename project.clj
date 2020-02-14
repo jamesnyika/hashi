@@ -1,7 +1,7 @@
 
 (defproject hashi "0.99"
-  :description "Sample Server for Hashi Exercise"
-  :url "http://example.com/FIXME"
+  :description "Sample service mesh of an app server and database server with intentions"
+  :url "http://github.com/jamesnyika/hashi"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.10.1"]
