@@ -41,6 +41,13 @@ A prospect is interested in establishing mutual TLS between applications or serv
     - [X] Draw up list of possible objections to the solution
     - [X] Draw up list of possible questions
 
+### What it took
+---
+
+The whole demo was put together over a period of 1 week due to a lot of other commitments. However,  it did not consume that much actual working time. The diagram below shows that breakdown and what you should be able to do to actually succeed.
+
+![skills](../resources/images/whatittook.png)
+
 ### Visualizing the result
 ---
 
