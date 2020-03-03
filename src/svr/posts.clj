@@ -51,9 +51,9 @@
    (create-posts-table)
 
    ;;add posts
-   (write-post "Hashicorp Federal Grows 300%" "Hashicorp grew tremendouslyl today")
-   (write-post "Hashicorp Looking for SC talent" "Hashicorp sent the word out today that they are seeking new candidates")
-   (write-post "Hashicorp to Wall Street" "Hashicorp bullish on Q1 of 2020")
+   (write-post "Application Feature Toggles with HashiCorp Consul" "Feature toggles (also known as feature flags) conditionally deliver application features to users. We previously discussed feature toggling of HashiCorp Terraform resources to mitigate the impact of production infrastructure changes. In this post, we demonstrate how to manage application feature toggles when using HashiCorp Consul and consul-template.")
+   (write-post "Terraform Sentinel v2 Imports Now in Technology Preview" "We've released a tech preview of Sentinel's completely re-designed import API, which better reflects Terraform 0.12's updated data model.")
+   (write-post "Expanding the tfrun import for Sentinel in Terraform Enterprise and Cloud" "Last November we announced the release of the tfrun import for Sentinel in Terraform Enterprise and Cloud. The release of the new tfrun import provided customers with an improved policy authoring workflow and the flexibility to author policies that could be applied to an entire organization and reduce the need for policy duplication. Since then we have had a steady flow of feedback from customers covering different use cases that prompted us to extend the list of attributes exposed by the tfrun import.")
   )
 
 (defn all
