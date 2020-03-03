@@ -55,7 +55,7 @@ If you would like to go directly to the solution description then go [here](./do
 
 ````bash  
 $ cd hashi
-$ ./startup.sh
+$ ./startdb.sh
 ````
 
 2. Start the web application server
